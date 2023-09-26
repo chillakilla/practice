@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-49JZLPN6H4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-49JZLPN6H4');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPARTAFLIX</title>
@@ -84,7 +93,6 @@
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
-
         $("#postingbtn").click(async function () {
             let image = $('#image').val();
             let title = $('#title').val();
@@ -146,8 +154,10 @@
             $('#postingbox').toggle();
         })
 
+    
 
     </script>
+
 </head>
 
 <body>
@@ -236,11 +246,11 @@
             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
             /*
             var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
             };
-            */
-            (function () { // DON'T EDIT BELOW THIS LINE
+                */
+                (function () { // DON'T EDIT BELOW THIS LINE
                 var d = document, s = d.createElement('script');
                 s.src = 'https://https-chillakilla-github-io-practice.disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
@@ -255,8 +265,8 @@
 
         <!--Start of Tawk.to Script-->
         <script type="text/javascript">
-            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-            (function () {
+                var Tawk_API = Tawk_API || { }, Tawk_LoadStart = new Date();
+                (function () {
                 var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
                 s1.async = true;
                 s1.src = 'https://embed.tawk.to/6512b2720f2b18434fdaa78c/1hb8gi41p';
@@ -267,20 +277,6 @@
         </script>
         <!--End of Tawk.to Script-->
     </p>
-    <p>
-
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-49JZLPN6H4"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-
-            gtag('config', 'G-49JZLPN6H4');
-        </script>
-
-    </p>
-
 
 </body>
 
